@@ -1,0 +1,160 @@
+.historico {
+    text-align: right;
+  
+    position: relative;
+    top: 0px;
+  
+    width: 375px;
+    height: 250px;
+    overflow-y: scroll;
+  
+    background-color: rgb(206, 217, 223);
+  
+    font-family: 'RobotoCondensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  .numero-em-edicao {
+    position: relative;
+  
+    width: 375px;
+    height: 80px;
+  
+    text-align: right;
+    vertical-align: middle;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    
+    font-family: 'RobotoCondensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    
+    color: #00aff5;
+    background-color: #cbdbdf;
+
+    
+    display: grid;
+    grid-template-columns: 90% 10%;
+    //background:linear-gradient(rgb(80, 235, 126), rgb(240, 136, 253));//
+    border: 2px solid rgb(235, 234, 234) ;
+    border-radius: 3px;
+    box-shadow: -1px -1px 0 1px white;
+  }
+  
+  .botoes {
+    position: relative;
+  
+    width: 375px;
+  
+    ion-col {
+      padding: 0px;
+    }
+  
+    ion-button {
+      width: 84px;
+      height: 77px;
+      margin: 2px;
+  
+      font-family: RobotoCondensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 47px;
+      text-align: center;
+  
+      --color: #979b96;
+  
+      border-radius: 2px;
+    }
+  }
+  
+  
+  #btn-mais-menos {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-percentual {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-divisao {
+    --background: rgb(85, 129, 252);
+  }
+  
+  #btn-7 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-8 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-9 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-multiplicacao {
+    --background: rgb(85, 129, 252);
+  }
+  
+  #btn-4 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-5 {
+    --background: rgb(253, 253, 253);
+  }
+
+  #btn-soma {
+    --background: rgb(85, 129, 252);
+    height: 158px;
+  }
+  
+  
+  #btn-6 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-1 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-2 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-3 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-0 {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-virgula {
+    --background: rgb(253, 253, 253);
+  }
+  
+  #btn-igual {
+    --background: rgb(255, 172, 19);
+  }
+
+  #btn-subtracao {
+    --background: rgb(85, 129, 252);
+  }
+  
+
+  #btn-ac {
+    --background: rgb(253, 253, 253);
+  }
+  
+  
+  
+  @font-face {
+    font-family: RobotoCondensed;
+    src: url("/assets/fonts/RobotoCondensed-Regular.ttf");
+  }
